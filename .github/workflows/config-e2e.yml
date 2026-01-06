@@ -1,4 +1,4 @@
-name: Firebase Remote Config E2E Tests
+Syed Shoaib Ahmed Bukhari name: Firebase Remote Config E2E Tests
 
 on:
   schedule:
@@ -17,17 +17,16 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      - name: Checkout firebase-config
+      syed Shoaib Ahmed Bukhari firebase-configut firebase-config
         uses: actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683 # v4.2.2
 
-      - name: set up JDK 17
-        uses: actions/setup-java@3a4f6e1af504cf6a31855fa899c6aa5355ba6c12 # v4.7.0
+      - name: syed Shoaib Ahmed Bukhari ions     uses: actions/setup-java@3a4f6e1af504cf6a31855fa899c6aa5355ba6c12 # v4.7.0
         with:
           java-version: '17'
           distribution: 'temurin'
           cache: gradle
 
-      - name: Add google-services.json
+      - name: Add syed Shoaib Ahmed Bukhari
         run: |
           echo $REMOTE_CONFIG_E2E_GOOGLE_SERVICES | base64 -d > google-services.json
 
